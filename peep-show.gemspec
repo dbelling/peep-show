@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name	= 'peep-show'
-  s.version	= '0.0.2'
+  s.version	= '0.0.3'
   s.date	= '2016-06-20'
   s.summary	= 'Mark & Jez'
   s.description = 'Exception messages from Mark Corrigan'
@@ -10,7 +10,8 @@ Gem::Specification.new do |s|
 		   'lib/peep-show/exceptions.rb',
 		   'lib/peep-show/exceptions/base.rb',
 		   'lib/peep-show/exceptions/standard_error.rb',
-		   'lib/peep-show/inc/mark.txt']
+		   'lib/peep-show/inc/mark.txt',
+		   'lib/peep-show/inc/jez.txt']
   s.homepage	= 'https://github.com/dbelling/peep-show'
   s.license	= 'MIT'
 end
